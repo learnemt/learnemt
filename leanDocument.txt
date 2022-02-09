@@ -1,2 +1,4 @@
 rep：https://github.com/orgs/wangdoc/repositories
-doc：https://wangdoc.com/
+doc：
+  - https://wangdoc.com/
+  - http://cn.linux.vbird.org/
