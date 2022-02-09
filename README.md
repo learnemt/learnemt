@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+- 💬 Be free to ask me about anything [here](https://github.com/learnemt/learnemt/issues).
 <!--
 **learnemt/learnemt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
