@@ -2,3 +2,4 @@ rep：https://github.com/orgs/wangdoc/repositories
 doc：
   - https://wangdoc.com/
   - http://cn.linux.vbird.org/
+  - https://github.com/github/gitignore
