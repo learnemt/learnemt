@@ -1,6 +1,6 @@
 ### Hi there 👋
 望自己能改变点什么
-- 💬 Be free to ask me about anything [here](https://github.com/learnemt/learnemt/discussions).
+- 💬 你可以随便问我任何问题 [在这里](https://github.com/learnemt/learnemt/discussions).
 <!-- **learnemt/learnemt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 
