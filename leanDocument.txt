@@ -8,3 +8,5 @@ githubDoc
   - https://pages.github.com
   - https://docs.github.com/cn
   - https://choosealicense.com
+  - 快捷键：https://docs.github.com/en/get-started/using-github/keyboard-shortcuts
+  - 写作：https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
