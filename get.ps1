@@ -20,11 +20,11 @@ function Install-FileManager {
 	$tag = Invoke-RestMethod -Method Get -Uri $resource | select -Expand tag_name
 	$arch = "386"
 	$osarch = (Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64 位"
-	echo $osarch
+	Write-Host $osarch
 	If ((Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64-bit") {
 		$arch = "amd64"
 	}
-	echi $arch
+	Write-Host $arch
 	$file = "windows-$arch-filebrowser.zip"
 	$url = "https://github.com/filebrowser/filebrowser/releases/download/$tag/$file"
 	$temp =  New-TemporaryFile
