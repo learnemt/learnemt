@@ -22,9 +22,10 @@ function Install-FileManager {
 	
 	If ((Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64 位") {
 		$arch = "amd64"
-		echi $arch
+		
 	}
-	echo (Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64 位"
+	
+	echi $arch
 	$file = "windows-$arch-filebrowser.zip"
 	$url = "https://github.com/filebrowser/filebrowser/releases/download/$tag/$file"
 	$temp =  New-TemporaryFile
