@@ -1,7 +1,6 @@
-rep：
+﻿rep：
 
 - https://github.com/orgs/wangdoc/repositories
-- https://github.com/github/gitignore
 
 doc：
 
@@ -11,11 +10,9 @@ doc：
 github:
 
 - [skyline](https://skyline.github.com/)
+- [help](https://docs.github.com/cn)
+- [快捷键](https://docs.github.com/cn/get-started/using-github/keyboard-shortcuts)
+- https://github.com/github/gitignore
 
-githubDoc
-
-- https://pages.github.com
-- https://docs.github.com/cn
+license:
 - https://choosealicense.com
-- [快捷键](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)
-- [写作](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
