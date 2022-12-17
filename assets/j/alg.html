@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>algorithm</title>
+</head>
+
+<body>
+    <script>
+        //1、拿到相加得到目标值得nums下标和值
+        function getTargetIndex() {
+            let nums = [1, 5, 8, 6, 7, 3], target = 15;
+            var arr = new Array();
+            for (let i = 0; i < nums.length - 1; i++) {
+                for (let j = i + 1; j < nums.length; j++) {
+                    if (nums[i] + nums[j] == target) {
+                        arr.push(nums[i], nums[j], i, j)
+                    }
+                }
+            }
+            return arr;
+        }
+        //冒泡  
+        function maoPao() {
+            let Arr = [1, 2, 2, 5, 1, 8, 7]
+            for (let i = 0; i < Arr.length - 1; i++) {
+                for (let j = i + 1; j < Arr.length; j++) {
+                    if (Arr[j] > Arr[i]) {
+                        var temp = Arr[i]
+                        Arr[i] = Arr[j]
+                        Arr[j] = temp;
+                    }
+                }
+            }
+            return Arr
+        }
+        //console.log("a:"+maoPao().sort((a,b)=>a-b))
+        //选择
+        function choose() {
+            let Arr = [1, 2, 5, 1, 8, 7]
+            for (let i = 0; i < Arr.length - 1; i++) {
+                min = i
+                for (let j = i + 1; j < Arr.length; j++) {
+                    if (Arr[min] > Arr[j])
+                        min = j
+                }
+                let temp = Arr[i]
+                Arr[i] = Arr[min]
+                Arr[min] = temp
+            }
+            return Arr
+        }
+        console.time("目标")
+        console.log(getTargetIndex());
+        console.timeEnd("目标")
+        console.time("冒泡")
+        console.log(maoPao());
+        console.timeEnd("冒泡")
+        console.time("选择")
+        console.log(choose());
+        console.timeEnd("选择")
+    </script>
+</body>
+
+</html>

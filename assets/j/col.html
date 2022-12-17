@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 0;
+            margin: 0;
+        }
+
+        .odiv {
+            height: 10px;
+            width: 10px;
+            border: 0;
+            background-color: olive;
+            position: absolute;
+        }
+
+        #crdiv {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        #create {
+            position: relative;
+            height: 500px;
+            width: 500px;
+            border: 3px solid #7919A9;
+            margin: 0 auto;
+            white-space:normal; word-break:break-all;overflow:hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="create" onclick="colorHex(this)"></div>
+    <script>
+        let dt = Date.now()
+        let st = performance.now()
+        console.time("循环消耗时间")
+        var count = 0;
+        for (let i = 0; i < 100000; i++) {
+            count++
+        }
+        var dt2 = Date.now()
+        console.timeEnd("循环消耗时间")
+        console.log("performance消耗时间：" + (performance.now() - st))
+        console.log("dateNow消耗时间："+(dt2-dt));
+
+        function colorHex(o) {
+            var str = "#";
+            var arr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
+            for(var i = 0; i < 6; i++) {
+                var num = parseInt(Math.random() * arr.length);
+                str += arr[num];
+            }
+            o.appendChild(document.createTextNode(str))
+            o.style.border = "3px "+str+" solid"
+        }
+    </script>
+</body>
+
+</html>
