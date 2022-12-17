@@ -1,6 +1,6 @@
 ### Hi there 👋
 望自己能改变点什么  
-<img width="450px" src="https://github-readme-stats.vercel.app/api?username=learnemt&show_icons=true&icon_color=0078e7&title_color=0078e7">
+<img align="right" width="450px" src="https://github-readme-stats.vercel.app/api?username=learnemt&show_icons=true&icon_color=0078e7&title_color=0078e7">
 <img align="left" width="450px" src="https://github-readme-streak-stats.herokuapp.com/?user=learnemt&hide_border=false">
 <!--<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=learnemt&hide_border=false">
 
