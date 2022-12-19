@@ -1,10 +1,10 @@
 ### Hi there 👋
 望自己能改变点什么  
-[![GitHub Streak](https://streak-stats.demolab.com?user=learnemt&theme=tokyonight_duo&locale=zh&hide_border=false)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=learnemt&locale=zh&hide_border=false)](https://git.io/streak-stats)
 [![GitHub Streak](https://github-readme-stats.vercel.app/api?username=learnemt&show_icons=true&icon_color=0078e7&title_color=0078e7)](https://git.io/streak-stats)
 
-<!--<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=learnemt&hide_border=false">
-<img  width="450px" src="https://github-readme-streak-stats.herokuapp.com/?user=learnemt&hide_border=false">
+<!--<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=learnemt&hide_border=true">
+<img width="450px" src="https://github-readme-streak-stats.herokuapp.com/?user=learnemt&hide_border=false">
 <img width="450px" src="https://github-readme-stats.vercel.app/api?username=learnemt&show_icons=true&icon_color=0078e7&title_color=0078e7">
 
 - 💬 Be free to ask me about anything [here](https://github.com/learnemt/learnemt/issues).
