@@ -1,16 +1,15 @@
 doc：
-
-- https://wangdoc.com
-- http://cn.linux.vbird.org
-- 
-
+- [wangdoc](https://wangdoc.com)
+- [linux](http://cn.linux.vbird.org)
+- [help](https://docs.github.com/cn)
 
 github:
+- [github](https://github.com/github/)
+- [DMCA](https://github.com/github/dmca)
 - [git-guides](https://github.com/git-guides/)
 - [skyline](https://skyline.github.com/)
-- [help](https://docs.github.com/cn)
 - [快捷键](https://docs.github.com/cn/get-started/using-github/keyboard-shortcuts)
 - [ignore](https://github.com/github/gitignore)
 
 license:
-- https://choosealicense.com
+- [license](https://choosealicense.com)
