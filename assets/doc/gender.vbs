@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak "Hi I AM Dog" 
+CreateObject("SAPI.SpVoice").Speak "Hello 世界" 
